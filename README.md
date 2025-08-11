@@ -1,9 +1,13 @@
-# Convertidor de Unidades con Vibe Coding
+# Convertidor de Unidades
 
-Herramienta web para conversiones básicas (longitud, peso, temperatura, volumen) desarrollada mediante **flujo continuo con asistencia de IA**.
+Convertidor básico de unidades con interfaz libre de fatiga visual
 
-## Características clave:
-- **Vibe Coding**: Desarrollo sin bloqueos creativos  
-- **Asistente**: DeepSeek Chat para iteraciones rápidas  
-- **Diseño**: Interfaz profesional sin fatiga visual  
-- **Funcional**: Conversiones en tiempo real  
+## Características
+- Conversión de longitud, peso, temperatura y volumen
+- Diseño responsive
+- Interfaz en español
+
+## Tecnologías
+- HTML5
+- CSS3
+- JavaScript
