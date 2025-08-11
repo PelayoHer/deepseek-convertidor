@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Unidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Convertidor de Unidades</h1>
+        
+        <div class="converter-box">
+            <div class="input-group">
+                <input type="number" id="inputValue" placeholder="Ingrese valor" step="any">
+                <select id="inputUnit"></select>
+            </div>
+            
+            <div class="swap-btn" id="swapBtn">
+                <span>⇅</span>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" id="resultValue" placeholder="Resultado" readonly>
+                <select id="outputUnit"></select>
+            </div>
+        </div>
+        
+        <div class="unit-categories">
+            <button class="category-btn active" data-category="longitud">Longitud</button>
+            <button class="category-btn" data-category="peso">Peso</button>
+            <button class="category-btn" data-category="temperatura">Temperatura</button>
+            <button class="category-btn" data-category="volumen">Volumen</button>
+        </div>
+        
+        <div class="disclaimer">
+            <p>Creado por <a href="https://github.com/PelayoHer" target="_blank">github.com/PelayoHer</a> usando DeepSeek</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
